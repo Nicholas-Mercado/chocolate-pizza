@@ -39,7 +39,7 @@ header nav div img{
   margin-left: 5px;
 }
 main p{
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .print{
   float: left;
@@ -102,6 +102,9 @@ ul{
   line-height: 170%;
   text-align: left;
 }
+ul:first-child{
+  float: left;
+}
 
 header div img{
   float: left;
@@ -125,8 +128,10 @@ footer img{
 }
 
 .by-line{
+  font-family: 'Times New Roman', Times, serif;
   display: block;
   float: left;
+  margin-left: 10px;
 }
 
 footer button{
@@ -136,4 +141,24 @@ footer button{
   height: 50px;
   color: aliceblue;
   background-color: #b7410e;
+}
+footer h3{
+  font-size:large;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#small-logo{
+  text-align: center;
+ margin-top: 200px;
+  width: 1000px;
+}
+
+footer div img{
+  margin:auto;
+  margin-bottom: 10px;
+  float: none;
+display: block;
+position: relative;
+bottom: 28px
 }
