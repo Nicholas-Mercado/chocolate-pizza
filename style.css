@@ -1,0 +1,22 @@
+/* 
+div{
+  column-count: 2;
+} */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  height: 120px;
+  width: 1000px;
+  margin: auto;
+}
+nav{
+
+}
+.logo {
+
+}
+header div img{
+  float: left;
+}
