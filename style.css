@@ -39,10 +39,15 @@ header nav div img{
   margin-left: 5px;
 }
 main p{
+  
+}
+.print{
   float: left;
 }
+
 .post-date{
   font-size: 13px;
+  float: left;
 }
 main div{
   display: inline-block;
@@ -83,14 +88,52 @@ header p{
   width: 1000px;
   margin-top: 10px;
   margin-bottom: 30px;
+  position: absolute;
   z-index: 0;
+  display: inline-block;
 }
 ul{
   z-index: auto;
+  display: inline-block;
+  margin-left: 175px;
+  margin-top: 34px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  line-height: 170%;
+  text-align: left;
 }
-.logo {
 
-}
 header div img{
   float: left;
+}
+
+#list-list{
+  position: absolute;
+}
+
+footer{
+  margin-top: 390px;
+  
+}
+footer div{
+  margin-bottom: 30px;
+}
+
+footer img{
+  float: left;
+  
+}
+
+.by-line{
+  display: block;
+  float: left;
+}
+
+footer button{
+  float: right;
+  border:none;
+  width: 200px;
+  height: 50px;
+  color: aliceblue;
+  background-color: #b7410e;
 }
