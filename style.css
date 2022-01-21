@@ -59,6 +59,15 @@ main div p{
   width: 1000px;
   margin-top: 30px;
 }
+.main-p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-indent: 30px;
+  font-size: larger;
+  line-height: 150%;
+  font-family: serif;
+  color: rgb(70, 70, 70);
+}
 h1{
   font-size: xx-large;
   padding-left: 10px;
@@ -69,6 +78,15 @@ h2{
 header p{
   font-size: x-small;
   padding-left: 10px;
+}
+#list-bg{
+  width: 1000px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  z-index: 0;
+}
+ul{
+  z-index: auto;
 }
 .logo {
 
