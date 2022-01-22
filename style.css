@@ -39,10 +39,17 @@ header nav div img{
   margin-left: 5px;
 }
 main p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.print{
+  font-family: 'Dosis', sans-serif;
   float: left;
 }
+
 .post-date{
+  font-family: 'Dosis', sans-serif;
   font-size: 13px;
+  float: left;
 }
 main div{
   display: inline-block;
@@ -60,6 +67,7 @@ main div p{
   margin-top: 30px;
 }
 .main-p{
+  
   margin-top: 20px;
   margin-bottom: 20px;
   text-indent: 30px;
@@ -69,28 +77,94 @@ main div p{
   color: rgb(70, 70, 70);
 }
 h1{
+  font-family: 'Yellowtail', cursive;
   font-size: xx-large;
   padding-left: 10px;
 }
 h2{
+  font-family: 'Anton', sans-serif;
   font-size: 60px;
 }
 header p{
   font-size: x-small;
   padding-left: 10px;
+  font-family: 'Dosis', sans-serif;
 }
 #list-bg{
   width: 1000px;
   margin-top: 10px;
   margin-bottom: 30px;
+  position: absolute;
   z-index: 0;
+  display: inline-block;
 }
 ul{
   z-index: auto;
+  display: inline-block;
+  margin-left: 175px;
+  margin-top: 34px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  line-height: 170%;
+  text-align: left;
 }
-.logo {
+ul:first-child{
+  float: left;
+}
 
-}
 header div img{
   float: left;
+}
+
+#list-list{
+  position: absolute;
+}
+
+footer{
+  margin-top: 390px;
+  
+}
+footer div{
+  margin-bottom: 30px;
+}
+
+footer img{
+  float: left;
+  
+}
+
+.by-line{
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+footer button{
+  float: right;
+  border:none;
+  width: 200px;
+  height: 50px;
+  color: aliceblue;
+  background-color: #b7410e;
+}
+footer h3{
+  font-size:large;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#small-logo{
+  text-align: center;
+ margin-top: 200px;
+  width: 1000px;
+}
+
+footer div img{
+  margin:auto;
+  margin-bottom: 10px;
+  float: none;
+display: block;
+position: relative;
+bottom: 28px
 }
